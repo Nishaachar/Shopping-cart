@@ -41,14 +41,14 @@
     padding: 7px 10px;
 }
 
-.productCard button:hover{
+.product button:hover{
     background-color: #103f80;
   }
 
-.productCard .remove {
+.product .remove {
     background-color: #ac0d14;
 }
 
-.productCard .remove:hover {
+.product .remove:hover {
     background-color: #8e090f;
 }

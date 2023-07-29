@@ -1,0 +1,39 @@
+header{
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 10px;
+}
+
+.logo, header{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    max-width: 40px;
+    padding-right: 5px;
+}
+
+.navigation .link {
+    padding: 10px;
+}
+
+.navigation .link.active{
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.items {
+    font-weight: 500;
+    min-width: 70px;
+}
+
+@media screen and (max-width: 680px) {
+    .navigation{
+        display: none;
+    }
+  }
